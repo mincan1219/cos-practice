@@ -6,6 +6,6 @@ int main(int argc, char*argv[])
 	int x{};
 	cout<<"Enter a number: ";
 	cin>>x;
-	cout<<"You entered "<<x<<std::endl;
+	cout<<"You entered "<<x<<endl;
 	return 0;
 }
