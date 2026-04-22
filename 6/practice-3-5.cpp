@@ -9,9 +9,9 @@ void decode1(long *xp, long *yp, long *zp)
     b = *yp;
     c = *zp;
 
-    *xp = b;
-    *yp = c;
-    *zp = a;
+    *yp = a;
+    *zp = b;
+    *xp = c;
 }
 
 int main(){
