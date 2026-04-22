@@ -1,4 +1,4 @@
-#ifndef __ HUMAN_H__
+#ifndef __HUMAN_H__
 #define __HUMAN_H__
 
 class Human {
@@ -12,5 +12,7 @@ class Human {
       const char *getName();
       void setAge(int age);
       int getAge();
-      void print;
+      void print();
 };
+
+#endif
